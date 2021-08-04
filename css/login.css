@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.container-fluid {
+    position: relative;
+    z-index: 1;
+    min-height: 100%;
+}
+
+.background {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url("../img/wallpaper.jpg");
+    background-size: cover;
+    min-height: 100vh;
+    opacity: 0.4;
+}
+
+.container-1 {
+    border-color: #097093 !important;
+    border-bottom: dotted;
+    border-width: 8px;
+    margin-bottom: 10px;
+}
+
+
+.name {
+    font-size: 68px;
+    background: linear-gradient(to right, #117E92 20%, #330867 80%);
+    background-clip: text;
+    -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    filter: brightness(200%);
+}
+
+
+.container-2 {
+    border-radius: 18px;
+    border: groove 2px #20B2AA;
+}
+
+
+#lock-gif {
+    max-width: 140px;
+    margin-top: -6%;
+    
+}
+
+.text {
+    color: rgba(255, 255, 255, 0.746);
+    font-size: 1.65em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    letter-spacing: 5px;
+    margin: auto !important;
+    line-height: 1.6em;
+}
+
+
+
+input[type="email"], input[type="password"] {
+    background-color: rgba(51, 49, 49, 0.546);
+    border: 2px solid #20B2AA;
+    font-weight: bold;
+    color: white;
+}
+
+
+.login {
+    font-size: 48px;
+    background: linear-gradient(to left, #117E92 40%, #330867 80%);
+    background-clip: text;
+    -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    filter: brightness(200%);
+}
+
+.form-group {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1em;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#button-login {
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 10px;
+    letter-spacing: 2px;
+}
+

@@ -1,0 +1,26 @@
+.container-profile {
+    margin-left: 20px;
+    color: #20B2AA;
+}
+
+.btn {
+	font-size: 22px;
+    color: #01d9ff;
+    border: 0px;
+    border: 2px solid #117E92;
+    border-radius: 14px;
+	-webkit-box-shadow:0px 0px 22px 5px rgba(5,138,100,0.9);
+	-moz-box-shadow: 0px 0px 22px 5px rgba(5,138,100,0.9);
+	box-shadow: 0px 0px 22px 5px rgba(5,138,100,0.9);
+	transition: 0.8s;
+}
+
+.btn:hover {
+    transform: scale(1.2);
+    color: #01d9ff;
+    margin-left: 15px;
+}
+
+input[type="text"], input[type="password"] {
+	width: 50% !important;
+}
